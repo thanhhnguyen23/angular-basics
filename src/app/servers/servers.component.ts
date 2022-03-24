@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  // selector: 'app-servers',   // * NOTE: default behavior
-  // selector: '[app-servers]', // * NOTE: custom attribute selector
-  selector: '.app-servers',     // * NOTE: custom class selector
+  selector: 'app-servers',          // * NOTE: default behavior w/ element selctor
+  // selector: '[app-servers]',     // * NOTE: custom attribute selector
+  // selector: '.app-servers',      // * NOTE: custom class selector
   templateUrl: './servers.component.html',
   styleUrls: ['./servers.component.css']
 })
